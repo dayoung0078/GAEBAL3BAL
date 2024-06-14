@@ -26,7 +26,8 @@ html이 혼재된 상태가 되고 html태그의 반복적인 사용으로 인�
 
 먼저 타임리프의 속성들에 대해 알아보고 실습을 진행하겠습니다.
 
-표현식
+표현식 <br/>
+<pre>
 변수 : ${…}
 선택 변수 : *{…}
 메시지 : #{…}
@@ -53,6 +54,8 @@ Binary : and, or
 if-then : (if) ? (then)
 if-then-else : (if) ? (then) : (else)
 Default : (value) ?: (defaultValue)
+
+</pre>
 
 리졸브
 
