@@ -63,8 +63,34 @@ Default : (value) ?: (defaultValue)
 
 </pre>
 
-<h1>리졸버</h1>
+<h1>ViewResolver</h1>
+
+<pre>
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fo6VcT%2FbtrQZsM5B7H%2FZs1LpORY4X9sJfjYjD9Ay1%2Fimg.png">
+
+@Controller 어노테이션을 사용하면 반환값을 처리하는 과정에서 ViewRsolver가 사용된다
+
+뷰 리졸버란 스프링 프레임워크에서 뷰 객체를 생성하는 방법을 결정하는 인터페이스이다.
+
+뷰 리졸버는 컨트롤러가 반환하는 뷰 이름을 뷰 객체로 변환하는데, 변환된 객체는 <span style=background-color:#fff5b">디스패처 서블릿이</span> 클라이언트에게 반환하는 응답을 생성하기 위해 사용된다
+
+```
+<h3>디스패처 서블릿?</h3>
+
+Servlet(서블릿)이란 자바로 작성된 프로그램을 실행할 수 있는 웹 애플리케이션을 실행하기 위한 스펙이다.
+즉, 동적인 웹 페이지를 생성해 주는 자바 웹 프로그래밍 기술
+
+
+
+<h4>DispatcherServlet(디스처 서블릿)</h4>
+
+디스패처 서블릿은 HTTP 프로토콜로 들어오는 모든 요청을 가장 먼저 받아 적합한 컨트롤러에 위임해 주는 Front Controll(프론트 컨트롤러)이다.
+
+<h5>Front Controller(프론트 컨트롤러)</h5>: 주로 서블릿 컨테이너의 제일 앞에서 서버로 들어오는 클라이언트의 모든 요청을 받아서 처리하는 컨트롤러
+```
+
+
+</pre>
 
 </div>
 </details>
