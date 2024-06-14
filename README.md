@@ -1,7 +1,9 @@
 <details>
 <summary>이은석</summary>
 <div markdown="1">
-1. Thymeleaf
+<pre>
+
+<h1>Thymeleaf</h1>
 
 웹 서비스를 만들 때 서버의 데이터 정적 자원(html, css, img)을 조합한다
 
@@ -25,6 +27,7 @@ html이 혼재된 상태가 되고 html태그의 반복적인 사용으로 인�
 스프링 부트에서 JSP가 아닌 타임리프를 사용하는것을 권장
 
 먼저 타임리프의 속성들에 대해 알아보고 실습을 진행하겠습니다.
+</pre>
 
 
 <pre>
@@ -60,7 +63,8 @@ Default : (value) ?: (defaultValue)
 
 </pre>
 
-리졸브
+<h1>리졸버</h1>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fo6VcT%2FbtrQZsM5B7H%2FZs1LpORY4X9sJfjYjD9Ay1%2Fimg.png">
 
 </div>
 </details>
